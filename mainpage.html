@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Website - Espresso Yourself</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav-logo">
+          <h2 class="logo-text">☕</h2>
+        </a>
+
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu" class="nav-link">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="#cart" class="nav-link">🛒</a>
+          </li>
+          <li class="nav-item">
+            <a href="login.html" class="nav-link">Logout</a>
+          </li>
+        </ul>
+
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="section-content">
+          <div class="hero-details">
+            <h2 class="title">ESPRESSO YOURSELF</h2>
+            <p class="description">Welcome to your everyday escape, where every cup is a canvas and every sip tells you a story</p>
+
+            <div class="buttons">
+              <a href="#" class="button order-now">Order Now</a>
+              <a href="#contact" class="button contact-us">Contact Us</a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <img src="images/main.jpg" alt="Coffee" class="hero-image" />
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="section-content">
+          <div class="about-image-wrapper">
+            <img src="images/YO.jpg" alt="About" class="about-image" />
+          </div>
+          <div class="about-details">
+            <h2 class="section-title">About Us</h2>
+            <p class="text">At Espresso Yourself, we serve more than just great coffee — we create a cozy space for connection and creativity. With sourced beans, fresh brews, and local treats, we are here to make your day better, one cup at a time.</p>
+            <div class="social-link-list">
+              <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu-section" id="menu">
+        <h2 class="section-title">Our Menu</h2>
+        <div class="section-content">
+          <ul class="menu-list">
+            <li class="menu-item">
+                <a href="hot-beverages.html" style="text-decoration: none; color: inherit;">
+                  <img src="images/hot-beverages.png" alt="Hot Beverages" class="menu-image" />
+                  <div class="menu-details">
+                    <h3 class="name">Hot Beverages</h3>
+                    <p class="text">Wide range of Steaming hot coffee to make you fresh and light.</p>
+                  </div>
+                </a>
+              </li>
+              <li class="menu-item">
+                <a href="cold-beverages.html" style="text-decoration: none; color: inherit;">
+                  <img src="images/cold-beverages.png" alt="Cold Beverages" class="menu-image" />
+                  <div class="menu-details">
+                    <h3 class="name">Cold Beverages</h3>
+                    <p class="text">Creamy and frothy cold coffee to make you cool.</p>
+                  </div>
+                </a>
+              </li>
+            <li class="menu-item">
+              <img src="images/refreshment.png" alt="Refreshment" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Refreshment</h3>
+                <p class="text">Fruit and icy refreshing drink to make feel refresh.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/special-combo.png" alt="Special Combos" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Special Combos</h3>
+                <p class="text">Your favorite eating and drinking combations.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/desserts.png" alt="Dessert" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Dessert</h3>
+                <p class="text">Satiate your palate and take you on a culinary treat.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/burger-frenchfries.png" alt="burger & French Fries" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Burger & French Fries</h3>
+                <p class="text">Quick bites to satisfy your small size hunger.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="section-content">
+          <ul class="contact-info-list">
+            <li class="contact-info">
+              <i class="fa-solid fa-location-crosshairs"></i>
+              <p>123 Cass Avenue, Detroit, MI 48201</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-envelope"></i>
+              <p>espressoyourself@gmail.com</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-phone"></i>
+              <p>(123) 456-78901</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Monday - Saturday: 9:00 AM - 5:00 PM</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Sunday: 10:00 AM - 3:00 PM</p>
+            </li>
+          </ul>
+
+          <form action="#" class="contact-form">
+            <input type="text" placeholder="Your name" class="form-input" required />
+            <input type="email" placeholder="Your email" class="form-input" required />
+            <textarea placeholder="Your message" class="form-input" required></textarea>
+            <button type="submit" class="button submit-button">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer-section">
+        <div class="section-content">
+          <p class="copyright-text">© 2025 Coffee Shop</p>
+
+          <div class="social-link-list">
+            <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+
+          <p class="policy-text">
+            <a href="#" class="policy-link">Privacy policy</a>
+            <span class="separator">•</span>
+            <a href="#" class="policy-link">Refund policy</a>
+          </p>
+        </div>
+      </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>

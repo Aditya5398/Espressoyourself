@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Cart</title>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f5f5f5;
+    }
+    .container {
+      background-color: white;
+      padding: 60px;
+      border-radius: 12px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 700px;
+      box-sizing: border-box;
+    }
+
+    .cart-item {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+
+    .c-details h4 {
+      margin: 0 0 8px 0;
+      font-size: 20px;
+    }
+    .c-details p {
+      margin: 0 0 12px 0;
+      font-size: 18px;
+    }
+
+    .qty input {
+      width: 70px;
+      margin-left: 10px;
+      padding: 6px;
+      font-size: 16px;
+    }
+
+    .remove-btn {
+      background-color: #967859;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .cart-summary {
+      border-top: 1px solid #ddd;
+      padding-top: 20px;
+      margin-top: 30px;
+      text-align: right;
+      font-size: 18px;
+    }
+
+    .checkout-btn {
+      margin-top: 20px;
+      width: 100%;
+      padding: 16px;
+      background-color: #8B6A46;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    .checkout-btn:hover {
+      background-color: #775A37;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Your Shopping Cart</h2>
+
+    <div class="cart-item">
+      <div class="c-details">
+        <h4>Iced latte</h4>
+        <p>$3.50</p>
+        <div class="qty">
+          Quantity:
+          <input type="number" value="1" min="1">
+        </div>
+      </div>
+      <div class="c-actions">
+        <button class="remove-btn">Remove</button>
+      </div>
+    </div>
+    
+
+    <div class="cart-summary">
+      <p><strong>Total:</strong> $3.50</p>
+      <button class="checkout-btn" onclick="location.href='payment.html'">Proceed to Checkout</button> 
+    </div>
+  </div>
+</body>
+</html>
